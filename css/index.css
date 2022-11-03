@@ -8,6 +8,55 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+h1 {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  width: auto;
+  height: auto;
+
+  font-weight: 700;
+  font-size: 36px;
+
+  color: #0A093D;
+}
+
+h1 strong {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  width: auto;
+  height: auto;
+
+  font-weight: 700;
+  font-size: 56px;
+
+  color: #0A093D;
+}
+
+h2 {
+  margin: auto;
+  width: auto;
+  height: auto;
+
+  font-weight: 500;
+  font-size: 18px;
+
+  color: #217BF4;
+}
+
+p {
+margin: auto;
+margin-bottom: 64px;
+width: auto;
+height: auto;
+
+font-weight: 400;
+font-size: 16px;
+
+color: #656464;
+}
+
 .home {
   background-image: url(../img/bg.svg);
   background: linear-gradient(311.76deg, #d4e7fe -15.24%, #ffffff 78.85%);
@@ -79,42 +128,6 @@ ul{
   margin-bottom: 37px;
 
   text-align: center;
-}
-
-h2 {
-  margin: auto;
-  width: auto;
-  height: auto;
-
-  font-weight: 500;
-  font-size: 18px;
-
-  color: #217BF4;
-}
-
-h1 {
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 18px;
-  width: auto;
-  height: auto;
-
-  font-weight: 700;
-  font-size: 36px;
-
-  color: #0A093D;
-}
-
-p {
-margin: auto;
-margin-bottom: 64px;
-width: auto;
-height: auto;
-
-font-weight: 400;
-font-size: 16px;
-
-color: #656464;
 }
 
 .headmembers {
