@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500;700;900&display=swap');
+/* link para importar as fontes do google */
+
+* {
+    margin: 0;  /* zera a margin e padding padrão da página inteira */
+    padding: 0;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.header {
+    display: flex;
+}
+
+#header-logo {
+    margin: 35px 72px 31px 175px;
+    display: flex;
+}
+
+.header-logo-img {
+    padding-right: 6px;
+}
+
+.header-logo-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header-navigation-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.header-navigation-menu ul li{
+    padding: 40px 32px 36px 0px;
+}
