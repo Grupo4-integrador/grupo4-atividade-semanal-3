@@ -1,5 +1,54 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+
+.home{
+    background-image: url(../img/bg.svg);
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    height: 90px;
+
+    border-bottom: 1px solid #217BF4;
+}
+
+.header p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header button {
+    border: none;
+    cursor: pointer;
+    background:none;
+
+    border: 32px;
+}
+
+.header logo {
+    position: absolute;
+    width: 143px;
+    height: 34px;
+}
+
+.botoes{
+    padding: 32px;
+    font-weight: 500;
+    font-size: 14px;
+
+    text-decoration: none;
+}
