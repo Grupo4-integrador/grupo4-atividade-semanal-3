@@ -38,10 +38,8 @@ body {
 }
 
 .nav{
-    border: 32px;
     font-weight: 500;
     font-size: 14px;
-    display: inline;
     flex-direction: row;
 }
 .nav li{
