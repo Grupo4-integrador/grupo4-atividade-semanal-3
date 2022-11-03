@@ -31,25 +31,37 @@ body{
     font-size: 24px;
 }
 
-.header button {
+.header nav {
     border: none;
     cursor: pointer;
     background:none;
+    text-decoration: none;
+}
 
+.nav{
     border: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline;
+    flex-direction: row;
+}
+.nav li{
+    display: inline-block;
+}
+
+.header nav ul li{
+    padding-right: 27px;
+}
+
+ul{
+    list-style: none;
+
 }
 
 .header logo {
     position: absolute;
     width: 143px;
     height: 34px;
-}
-
-.botoes{
-    font-weight: 500;
-    font-size: 14px;
-
-    text-decoration: none;
 }
 
 .footer {
