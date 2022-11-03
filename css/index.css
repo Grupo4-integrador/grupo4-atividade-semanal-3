@@ -8,51 +8,73 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+
+
 .home {
-  background-image: url(../img/bg.svg);
   background: linear-gradient(311.76deg, #d4e7fe -15.24%, #ffffff 78.85%);
+  background-image: url(../img/bg.svg);
+  width: 1440px;
+  height: 746px;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /*justify-content: space-between;   esse fdp tava me comendo :@*/
+  justify-content: center;
   align-items: center;
   height: 90px;
 
   border-bottom: 1px solid #217bf4;
 }
 
-.header p {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-}
-
 .header nav {
-    border: none;
-    cursor: pointer;
-    background:none;
-    text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background:none;
+  text-decoration: none;
 }
 
 .nav{
-    font-weight: 500;
-    font-size: 14px;
-    flex-direction: row;
+  font-weight: 500;
+  font-size: 14px;
+  flex-direction: row;
+  color: #656464;
+  padding-left: 72px;
 }
 .nav li{
     display: inline-block;
 }
 
+.header button{
+  cursor: pointer;
+  margin-left: 526px;
+  width: 123px;
+  height: 50px;
+
+  background: #217BF4;
+  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+  border-radius: 14px;
+  border: transparent;
+
+  font-weight: 600;
+  color: white;
+}
+.header button:hover{
+  background: #217cf4ba;
+}
+
 .header nav ul li{
-    padding-right: 27px;
+  padding-right: 27px;
+}
+
+.header nav ul li span{
+  font-weight: 600;
+  color: #2B2B39;
 }
 
 ul{
-    list-style: none;
-
+  list-style: none;
 }
 
 .header logo {
@@ -61,11 +83,32 @@ ul{
   height: 34px;
 }
 
-.botoes {
-  font-weight: 500;
-  font-size: 14px;
+.content{
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
 
-  text-decoration: none;
+.content .left{
+  margin-left: 135px;
+  margin-top: 125px;
+  margin-bottom: 165px;
+}
+
+.content .left .b1{
+  color: rgba(33, 123, 244, 1);
+
+  width: 177px;
+  height: 36px;
+
+  background: #217cf4;
+  opacity: 0.1;
+  border-radius: 8px;
+  border: transparent;
+}
+
+.content .right img{
+  margin-right: 135px;
 }
 
 .community {
