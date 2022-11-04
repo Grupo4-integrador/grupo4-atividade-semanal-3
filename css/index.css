@@ -89,27 +89,25 @@ p {
 .imagesmembers {
   display: flex;
   flex-direction: row;
-  gap: 30px;
-
-  width: 270px;
-  height: 316px;
-  box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
-  border-radius: 14px;
+  width: fit-content;
 }
 
 .imagesmembers img {
   margin-bottom: 4px;
+  width: 170px;
+  height: 173px;
 }
 
 .imagesmembers p {
   text-align: center;
 }
 
-.imagesmembers p strong {
+.imagesmembers strong {
   margin-bottom: 14px;
 
   font-weight: 600;
   font-size: 24px;
+  color: #2f2c4a;
 }
 
 /* PUBLICIDADE / SIXTH PAGE */
