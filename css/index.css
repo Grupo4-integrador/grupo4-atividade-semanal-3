@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.line-1 {
+  height: 1px;
+  background: grey;
+}
+
+h3 {
+  font-family: Poppins;
+}
+
+.paginicial{
+  background-image: linear-gradient(to right, #FFFFFF, #D4E7FE);
+}
+
+.botao1 {
+  background-color: #217BF4;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding:15px;
+  min-width: 120px;
+  min-height:30px; 
+}
+
+.botao2 {
+  background-color: #D4E7FE;
+  color: #217BF4;
+  border: none;
+  border-radius: 10px;
+  padding:13px;
+  min-width: 120px;
+  min-height:30px; 
+}
+
