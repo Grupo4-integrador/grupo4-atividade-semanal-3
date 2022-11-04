@@ -9,51 +9,111 @@ body {
 }
 
 h1 {
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 18px;
   width: auto;
   height: auto;
 
   font-weight: 700;
   font-size: 36px;
 
-  color: #0A093D;
+  color: #0a093d;
 }
 
 h1 strong {
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 18px;
   width: auto;
   height: auto;
 
   font-weight: 700;
   font-size: 56px;
 
-  color: #0A093D;
+  color: #0a093d;
 }
 
 h2 {
-  margin: auto;
   width: auto;
   height: auto;
 
   font-weight: 500;
   font-size: 18px;
 
-  color: #217BF4;
+  color: #217bf4;
 }
 
 p {
-margin: auto;
-margin-bottom: 64px;
-width: auto;
-height: auto;
+  width: auto;
+  height: auto;
 
-font-weight: 400;
-font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
 
-color: #656464;
+  color: #656464;
 }
 
+/* MEMBERS / FIFTH PAGE */
+
+/* HEAD MEMBERS */
+
+.headmembers {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.headmembers h2 {
+  margin-top: 37px;
+  margin-bottom: 10px;
+}
+
+.headmembers h1 {
+  margin-bottom: 18px;
+}
+
+.headmembers p {
+  margin-bottom: 38px;
+  width: 454px;
+}
+
+/* BOTÕES MEMBERS */
+
+.buttonmembers {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 44px;
+}
+
+.buttonmembers button {
+  text-align: center;
+}
+
+/* IMAGENS MEMBERS */
+
+.imagesmembers {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  width: 270px;
+  height: 316px;
+  box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+  border-radius: 14px;
+}
+
+.imagesmembers img {
+  margin-bottom: 4px;
+}
+
+.imagesmembers p {
+  text-align: center;
+}
+
+.imagesmembers p strong {
+  margin-bottom: 14px;
+
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/* PUBLICIDADE / SIXTH PAGE */
+
+.publi {
+  background-color: #e5f0fd;
+}
