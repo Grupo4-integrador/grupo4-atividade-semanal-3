@@ -12,11 +12,34 @@ a{
 
 .about-us {
     background-color: hsla(0, 0%, 100%, 1);
+    display: grid;
+    margin-right: 10vw;
+    width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.about-us-images {
-  /*  display: flex; */
-}
+    grid-template-areas:
+      "margin-left article big-image small-image1 margin-right"
+      "margin-left article  big-image small-image2 margin-right";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 10vw 2fr 265px 265px 10vw;
+  }
+  
+  .about-us-article {
+    grid-area: article;
+    margin-top: 25vh;
+  }
+  
+  .about-us-big-images {
+    grid-area: big-image;
+    margin-top: 180px;
+  }
+  
+  .small-image1 {
+    grid-area: small-image1;
+    margin-top: 120px;
+    margin-left: 25px;
+  }
+  
+  .small-image2 {
+    grid-area: small-image2;
+    margin-top: 15px;
+  }
