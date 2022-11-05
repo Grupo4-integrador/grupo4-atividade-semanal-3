@@ -13,9 +13,9 @@ body {
 /* HEAD MEMBERS */
 
 .headmembers {
-  margin: auto;
   width: 100%;
   height: fit-content;
+  margin: auto;
 
   text-align: center;
 }
@@ -52,15 +52,15 @@ body {
 /* BOTÕES MEMBERS */
 
 .buttonmembers {
-  margin: auto;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
   width: 474px;
   height: 72px;
+  margin: auto;
   margin-bottom: 44px;
+
+  align-items: center;
+  justify-content: center;
 
   background-color: rgba(33, 124, 244, 0.2);
   border-radius: 14px;
@@ -71,6 +71,9 @@ body {
   width: 150px;
   height: 56px;
 
+  font-weight: 500;
+  font-size: 16px;
+
   text-align: center;
 
   border-radius: 14px;
@@ -78,8 +81,6 @@ body {
   border-style: none;
   cursor: pointer;
 
-  font-weight: 500;
-  font-size: 16px;
   color: #2f2c4a;
 }
 
@@ -114,10 +115,10 @@ body {
 }
 
 .imagesmembers img {
-  margin-top: 30px;
-  margin-bottom: 29px;
   width: 170px;
   height: 173px;
+  margin-top: 30px;
+  margin-bottom: 29px;
 }
 
 .imagesmembers h2 {
@@ -146,7 +147,16 @@ body {
 
 .publi {
   background-color: #e5f0fd;
+  display: flex;
+  flex-direction: row;
   width: 100%;
+  height: fit-content;
+}
+
+.leftsidepubli {
+  position: relative;
+  top: 122px;
+  left: 135px;
 }
 
 .textpubli h2 {
@@ -183,5 +193,21 @@ body {
 }
 
 .imgpubli {
-  
+  display: flex;
+  flex-direction: row;
+}
+
+.phonepubli img {
+
+}
+
+@media (max-width: 1000px) {
+  .publi {
+    flex-wrap: wrap;
+  }
+
+  .phonepubli {
+    margin-top: 100px;
+    width: 440.5px;
+  }
 }
