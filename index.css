@@ -212,9 +212,66 @@ a{
 }
 
 .discover-me-button {
-  padding: 22px 40px 22px 40px;
+  display: flex;
+  padding: 22px 60px 22px 40px;
   background-color: hsla(214, 91%, 54%, 1);
   border-radius: 14px;
   box-shadow: 0px 10px 22px -6px hsla(214, 91%, 54%, 0.26);
   width: 120px;
+}
+
+.gg-arrow-right {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 22px;
+  height: 22px;
+ }
+ 
+ .gg-arrow-right::after,
+ .gg-arrow-right::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  right: 3px
+ }
+ 
+ .gg-arrow-right::after {
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  transform: rotate(45deg);
+  bottom: 7px
+ }
+ 
+ .gg-arrow-right::before {
+  width: 16px;
+  height: 2px;
+  bottom: 10px;
+  background: currentColor
+ } 
+
+ .discover-me-button .gg-arrow-right {
+  color: white;
+  margin-left: 10px;
+}
+
+.join-our-community {
+  display: flex;
+}
+
+.join-our-community .gg-arrow-right {
+  color: hsla(214, 91%, 54%, 1);
+  margin-left: 5px;  
+}
+
+.go-to-awards {
+  display: flex;
+}
+
+.go-to-awards .inter-500-16px-2, .gg-arrow-right {
+  color: hsla(240, 8%, 31%, 1);
 }
