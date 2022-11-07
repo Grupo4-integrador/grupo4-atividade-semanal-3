@@ -450,6 +450,7 @@ ul {
 .footer .base p {
   color: #f6f6f6;
   width: auto;
+  margin: 0;
 
   font-size: 14px;
   font-weight: 400;
