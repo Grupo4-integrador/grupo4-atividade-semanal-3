@@ -150,7 +150,6 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: fit-content;
 }
 
 .leftsidepubli {
@@ -197,17 +196,27 @@ body {
   flex-direction: row;
 }
 
-.phonepubli img {
-
+.phonepubli {
+  position: relative;
+  left: 193px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .publi {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
   }
 
   .phonepubli {
-    margin-top: 100px;
-    width: 440.5px;
+    position: static;
+  }
+}
+
+@media (max-width: 500px) {
+  .leftsidepubli {
+    position: static;
+    width: fit-content;
+    margin: auto;
+    margin-top: 122px;
   }
 }
