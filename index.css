@@ -109,15 +109,22 @@ a{
 .card-1 {
   border: 1px solid;
   border-image-source: linear-gradient(180deg, rgba(185, 185, 185, 0.0351) 0%, rgba(94, 94, 94, 0.0999) 100%);
-  padding: 44px 24px 40px 40px;
-  height: 220px;
-  background-color: #FFFFFF;
+  padding: 44px 24px 40px 20px;
+  height: 255px;
   border-radius: 14px;
   box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
 }
 
-.star-rating {
+.card-1 div:first-child, .inter-400-16px, .inter-500-16px-2 {
+  margin-left: 20px;
+}
+
+.rating-members {
   display: flex;
+}
+
+.rating-members:first-child {
+  margin-bottom: 30px;
 }
 
 .blue-star {
@@ -152,8 +159,8 @@ a{
   font-weight: 400;
   font-size: 16px;
   color: hsla(0, 0%, 55%, 1);
-  margin-top: 43px;
-  margin-bottom: 40px;
+  margin-top: 38px;
+  margin-bottom: 38px;
 }
 
 .inter-500-16px-2 {
@@ -161,4 +168,53 @@ a{
   font-weight: 500;
   font-size: 16px;
   color: hsla(214, 91%, 54%, 1);
+}
+
+.card-2 {
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, rgba(185, 185, 185, 0.1188) 0%, rgba(94, 94, 94, 0.1566) 100%);
+  padding: 44px 24px 40px 20px;
+  height: 255px;
+  border-radius: 14px;
+}
+
+.card-2 div:first-child {
+  margin-left: 20px;
+}
+
+.card-2 div:nth-child(2) {
+  margin-left: 10px;
+}
+
+.our-achievment {
+  margin-top: 15px;
+}
+
+.inter-500-14px {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.inter-400-16px-2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsla(0, 0%, 55%, 1);
+  margin-top: 18px;
+  margin-bottom: 38px;
+}
+
+.our-achievment h2{
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.discover-me-button {
+  padding: 22px 40px 22px 40px;
+  background-color: hsla(214, 91%, 54%, 1);
+  border-radius: 14px;
+  box-shadow: 0px 10px 22px -6px hsla(214, 91%, 54%, 0.26);
+  width: 120px;
 }
